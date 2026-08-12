@@ -14,6 +14,27 @@ export const Colors = {
     backgroundElement: '#F0F0F3',
     backgroundSelected: '#E0E1E6',
     textSecondary: '#60646C',
+
+    // brand / actions
+    primary: '#1FA463',        // main green — buttons, active tab, balance card
+    primaryLight: '#E4F5EC',   // selected chip bg (e.g. "Month" tab, category selected)
+
+    // finance semantics
+    income: '#1FA463',
+    incomeLight: '#E4F5EC',
+    expense: '#E5484D',
+    expenseLight: '#FBE4E4',
+
+    // category accent set (donut/bar chart + category icons)
+    categoryFood: '#EF7A85',
+    categoryTransport: '#4C8DFF',
+    categoryShopping: '#9B7EDE',
+    categoryBills: '#F5A623',
+    categoryEntertainment: '#F2C94C',
+    categoryOthers: '#9AA0A6',
+
+    border: '#E5E6EA',
+    danger: '#E5484D',
   },
   dark: {
     text: '#ffffff',
@@ -21,6 +42,24 @@ export const Colors = {
     backgroundElement: '#212225',
     backgroundSelected: '#2E3135',
     textSecondary: '#B0B4BA',
+
+    primary: '#2ECC81',
+    primaryLight: '#1B3A2A',
+
+    income: '#2ECC81',
+    incomeLight: '#1B3A2A',
+    expense: '#F16064',
+    expenseLight: '#3A2223',
+
+    categoryFood: '#F08C96',
+    categoryTransport: '#6FA2FF',
+    categoryShopping: '#AE93E8',
+    categoryBills: '#F7B84D',
+    categoryEntertainment: '#F5D66B',
+    categoryOthers: '#8E949B',
+
+    border: '#2E3135',
+    danger: '#F16064',
   },
 } as const;
 
